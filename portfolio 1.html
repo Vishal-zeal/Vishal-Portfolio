@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///C:/Users/vishal/Downloads/portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background: #f0f0f0;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1500x400') no-repeat center center/cover
+   color: white;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+    section {
+      padding: 2rem;
+      background: white;
+      margin: 1rem auto;
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: white;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi I am Vishal More</h1>
+    <nav>
+      <a href="file:///C:/Users/vishal/Downloads/portfolio.html#about">About</a>
+      <a href="file:///C:/Users/vishal/Downloads/portfolio.html#Contact">Contact</a>
+      <a href="file:///C:/Users/vishal/Downloads/portfolio.html#projects">projects</a>
+      <a href="file:///C:/Users/vishal/Downloads/portfolio.html#Skills">Skill</a>
+      <a href="file:///C:/Users/vishal/Downloads/portfolio.html#Experience">Experience</a>
+    </nav>
+  </header>
+  <div style="text-align: center;">
+    <h2>Welcome to My Site</h2>
+    <p>This is a simple placeholder website</p>
+  </div>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>This is a simple website created for intership task purpose.</p>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="submitForm(event)">
+      <label>Name</label>
+      <input type="text" placeholder="Your name" required="">
+      <label>Email</label>
+      <input type="email" placeholder="Your email" required="">
+      <label>Message</label>
+      <textarea rows="4" placeholder="Your message..." required=""></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <section id="Project">
+    <h2>My Projects</h2>
+    <p>1)Calculator App<br>
+       2)To-Do List App. ...<br>
+       3)Basic Game using Python. ...</p>
+  </section>
+  <section id="Slill">
+    <h2>Skills</h2>
+    <p>1)Microsoft Office<br>
+       2)Communication<br>
+       3)Programming</p>
+  </section>
+  <section id="Experience">
+    <h2>My Experiences</h2>
+    <p>1)opportunities for networking<br>
+       2)internships<br>
+       3)Networking:</p>
+  </section>
+  <footer>
+    <p>© 2025 My company </p>
+  </footer>
+  <script>
+    function submitForm(event) {
+      event.preventDefault();
+      alert("Thanks for contacting us!");
+    }
+  </script>
+
+</body></html>
